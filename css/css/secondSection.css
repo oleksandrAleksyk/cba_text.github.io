@@ -1,0 +1,123 @@
+.secondSection {
+  position: absolute;
+  width: 100%;
+  top: 100vh;
+  height: 100vh;
+  display: block;
+}
+.secondSection img {
+  height: 100vh;
+}
+.secondSection .caption {
+  background: #FFB800;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  color: white;
+  display: block;
+  width: 10%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+}
+.secondSection .caption strong {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+}
+.secondSection .col-6 h4 {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 139.4%;
+  letter-spacing: 9.7px;
+  text-transform: uppercase;
+  color: #FF9900;
+  margin-top: 25%;
+}
+.secondSection .col-6 h3 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+.secondSection .col-6 article {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #7C7C7C;
+  width: 70%;
+}
+.secondSection .secondSection__footer {
+  height: 50vh;
+  width: 100%;
+  background-color: black;
+  padding-right: -15px;
+}
+.secondSection .secondSection__footer .row {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 25px;
+  color: white;
+}
+.secondSection .secondSection__footer .row .col-2 {
+  border: 3px solid white;
+  border-top-color: yellow;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  padding-top: 10px;
+  margin-right: 70px;
+  text-transform: none;
+}
+.secondSection .secondSection__footer .row .col-2 p {
+  width: 100px;
+  padding-top: 20px;
+  transform: translate(-25%, 0);
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+.secondSection .secondSection__footer h4 {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 139.4%;
+  letter-spacing: 9.7px;
+  text-transform: uppercase;
+  color: #FF9900;
+  padding-top: 15px;
+}
+.secondSection .secondSection__footer h5 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  padding-top: 15px;
+}
+
+/*# sourceMappingURL=secondSection.css.map */

@@ -1,0 +1,82 @@
+.thirdSection {
+  width: 100%;
+  display: block;
+}
+.thirdSection h3 {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 139.4%;
+  text-align: center;
+  letter-spacing: 9.7px;
+  text-transform: uppercase;
+  color: #FF9900;
+  padding-top: 25px;
+}
+.thirdSection h4 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 139.4%;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+.thirdSection .thirdSection__portfolio {
+  height: 100vh;
+  position: absolute;
+  top: 250vh;
+}
+.thirdSection .thirdSection__portfolio h5 {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #000000;
+  padding-top: 15px;
+  margin-left: 5%;
+}
+.thirdSection .thirdSection__portfolio article {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #000000;
+  padding-top: 15px;
+  margin-left: 5%;
+}
+.thirdSection .thirdSection__portfolio h6 {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #000000;
+  margin-left: 5%;
+  padding-top: 10px;
+}
+.thirdSection .thirdSection__portfolio h6 strong {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+}
+
+.thirdSection__feedback img {
+  position: absolute;
+  top: 350vh;
+  width: 100%;
+  height: 100vh;
+  z-index: 5;
+}
+
+/*# sourceMappingURL=thirdsection.css.map */
