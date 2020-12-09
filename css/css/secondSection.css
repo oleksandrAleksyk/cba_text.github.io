@@ -5,6 +5,10 @@
   height: 100vh;
   display: block;
 }
+.secondSection .row {
+  padding: 0;
+  margin: 0;
+}
 .secondSection img {
   height: 100vh;
 }
@@ -12,7 +16,7 @@
   background: #FFB800;
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 10;
   text-align: center;
   color: white;
   display: block;
@@ -62,43 +66,11 @@
   color: #7C7C7C;
   width: 70%;
 }
-.secondSection .secondSection__footer {
+.secondSection .secondSection__workStages {
   height: 50vh;
-  width: 100%;
   background-color: black;
-  padding-right: -15px;
 }
-.secondSection .secondSection__footer .row {
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 25px;
-  color: white;
-}
-.secondSection .secondSection__footer .row .col-2 {
-  border: 3px solid white;
-  border-top-color: yellow;
-  border-radius: 50%;
-  text-align: center;
-  width: 50px;
-  height: 50px;
-  padding-top: 10px;
-  margin-right: 70px;
-  text-transform: none;
-}
-.secondSection .secondSection__footer .row .col-2 p {
-  width: 100px;
-  padding-top: 20px;
-  transform: translate(-25%, 0);
-  font-family: Gilroy;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 139.4%;
-  letter-spacing: 0.2px;
-  color: #FFFFFF;
-}
-.secondSection .secondSection__footer h4 {
+.secondSection .secondSection__workStages h4 {
   font-family: Gilroy;
   font-style: normal;
   font-weight: normal;
@@ -109,7 +81,7 @@
   color: #FF9900;
   padding-top: 15px;
 }
-.secondSection .secondSection__footer h5 {
+.secondSection .secondSection__workStages h5 {
   font-family: Playfair Display;
   font-style: normal;
   font-weight: normal;
@@ -117,7 +89,35 @@
   line-height: 139.4%;
   letter-spacing: 0.2px;
   color: #FFFFFF;
-  padding-top: 15px;
+}
+.secondSection .secondSection__workStages ul {
+  color: white;
+  list-style-type: none;
+  margin: 0 auto;
+  padding-top: 75px;
+  text-align: center;
+}
+.secondSection .secondSection__workStages ul li {
+  display: inline-block;
+  margin-left: 75px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: center;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding-top: 10px;
+  z-index: 100;
+}
+.secondSection .secondSection__workStages ul li ::before {
+  position: absolute;
+  content: " ";
+  transform: translate(-40%, -25%);
+  width: 50px;
+  height: 50px;
+  border-top: 5px solid #FF9900;
+  border-radius: 50%;
+  z-index: 5;
 }
 
 /*# sourceMappingURL=secondSection.css.map */

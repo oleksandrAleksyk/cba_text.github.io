@@ -1,0 +1,140 @@
+.footer {
+  display: block;
+  position: absolute;
+  top: 450vh;
+  height: 50vh;
+  width: 100%;
+  left: 0;
+  z-index: 55555;
+}
+.footer .footer__contactUs {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 25px;
+  display: iniline-block;
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  background-color: #FFB800;
+  color: white;
+}
+.footer .footer__contactUs h4 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  color: #FFFFFF;
+  text-align: left;
+}
+.footer .footer__contactUs h5 {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.005em;
+  color: #FFFFFF;
+  text-align: left;
+}
+.footer .footer__contactUs #inputName {
+  width: 45%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  margin-right: 9%;
+  margin-bottom: 25px;
+}
+.footer .footer__contactUs #inputEmail {
+  width: 45%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+}
+.footer .footer__contactUs #inputMessage {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  margin-bottom: 25px;
+}
+.footer .footer__contactUs input {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.07em;
+  color: rgba(255, 255, 255, 0.72);
+}
+.footer .footer__contactUs button {
+  border: none;
+  padding: 15px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFB800;
+}
+.footer .footer__lower {
+  top: 50vh;
+  width: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 25px;
+  display: block;
+  position: absolute;
+  height: 30vh;
+  background-color: #000000;
+  color: white;
+}
+.footer .footer__lower .leftM {
+  display: inline-block;
+  position: absolute;
+  left: 5%;
+  width: 30%;
+  text-align: left;
+  bottom: 0;
+}
+.footer .footer__lower .leftM h4 {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 80px;
+  letter-spacing: 0.07em;
+  color: #FF9900;
+  left: 0;
+  text-transform: uppercase;
+}
+.footer .footer__lower .centerM {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 30%;
+  width: 30%;
+}
+.footer .footer__lower .centerM ul {
+  list-style-type: none;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+.footer .footer__lower .centerM ul li {
+  margin-top: 15px;
+}
+.footer .footer__lower .rightM {
+  display: iniline-block;
+  position: absolute;
+  bottom: 0;
+  right: 0%;
+  width: 30%;
+}
+.footer .footer__lower .rightM h6 {
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=footer.css.map */
